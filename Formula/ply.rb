@@ -1,25 +1,25 @@
 class Ply < Formula
   desc "Local-first package manager for coding-agent assets."
   homepage "https://plycli.dev"
-  version "0.2.0"
+  version "0.2.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/jeansimeoni/ply/releases/download/v0.2.0/ply-aarch64-apple-darwin.tar.xz"
-      sha256 "cb6375b969b2ea2b7352984de5f1381c3a63fb1ce375f4b764e4bcdb5abd90bb"
+      url "https://github.com/jeansimeoni/ply/releases/download/v0.2.1/ply-aarch64-apple-darwin.tar.xz"
+      sha256 "2c699bd24fe73e9b51a4007ee2dc5adf34e18180fac908273948002e50a1ae54"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/jeansimeoni/ply/releases/download/v0.2.0/ply-x86_64-apple-darwin.tar.xz"
-      sha256 "c7814779f8e6830075c663bd7331fe58675fc329aeac7925254e0c4f0ef6b62c"
+      url "https://github.com/jeansimeoni/ply/releases/download/v0.2.1/ply-x86_64-apple-darwin.tar.xz"
+      sha256 "06a09cf6f567125c72bee7a088992bb03382384d0fc421fb6f0a9b098102b1d5"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/jeansimeoni/ply/releases/download/v0.2.0/ply-aarch64-unknown-linux-musl.tar.xz"
-      sha256 "28f72dcb531944111ecc5376c266e07fa1499d49ea3c4a7d66f05dc4a57b33ac"
+      url "https://github.com/jeansimeoni/ply/releases/download/v0.2.1/ply-aarch64-unknown-linux-musl.tar.xz"
+      sha256 "c98dfa212986fc364a8187429d39d079a7786046b0d89be2bb177c4cab4a5390"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/jeansimeoni/ply/releases/download/v0.2.0/ply-x86_64-unknown-linux-musl.tar.xz"
-      sha256 "5c72bcf79ebba60cd3f68d806daba87871ce8fa3dbaae13e4f9f45ade7757ef6"
+      url "https://github.com/jeansimeoni/ply/releases/download/v0.2.1/ply-x86_64-unknown-linux-musl.tar.xz"
+      sha256 "534e1fe93f374e544fba539a27ccf29f88ef7bd4b0400a4cc0195f08ecf961ca"
     end
   end
   license "GPL-3.0-only"
