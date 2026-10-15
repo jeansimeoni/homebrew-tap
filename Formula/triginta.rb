@@ -1,25 +1,25 @@
 class Triginta < Formula
   desc "A local-first TUI Pomodoro timer and task manager."
   homepage "https://triginta.app"
-  version "0.1.9"
+  version "0.1.10"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/jeansimeoni/triginta/releases/download/v0.1.9/triginta-aarch64-apple-darwin.tar.xz"
-      sha256 "b98d76a98ba75508c66270af0a82a17662e7a6b201231603cfb2c00fc019779b"
+      url "https://github.com/jeansimeoni/triginta/releases/download/v0.1.10/triginta-aarch64-apple-darwin.tar.xz"
+      sha256 "90a425139f01c7768287c597dbe9d7079c0e19dfcfcf1df651eb4effac355486"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/jeansimeoni/triginta/releases/download/v0.1.9/triginta-x86_64-apple-darwin.tar.xz"
-      sha256 "a44b214551415a0912d70e2c40d01530c7cb3c0aa891b14cca4baf150da01a63"
+      url "https://github.com/jeansimeoni/triginta/releases/download/v0.1.10/triginta-x86_64-apple-darwin.tar.xz"
+      sha256 "b96ee5da6eef317f627bad8e9a8eb238340fbebf7c3b152ed23c94cbd5484509"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/jeansimeoni/triginta/releases/download/v0.1.9/triginta-aarch64-unknown-linux-musl.tar.xz"
-      sha256 "47856528e758e917acfe534511641f33fdf338a476e0b815640c304a8d4721b0"
+      url "https://github.com/jeansimeoni/triginta/releases/download/v0.1.10/triginta-aarch64-unknown-linux-musl.tar.xz"
+      sha256 "ba33badc6c2742b2b0c02f5cea58fd9ed822f02c121464a50f5db12553d32d60"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/jeansimeoni/triginta/releases/download/v0.1.9/triginta-x86_64-unknown-linux-musl.tar.xz"
-      sha256 "058fd93baf628e1f1b9c4e79c6f714510b0f703aa358b4adf251947febed800d"
+      url "https://github.com/jeansimeoni/triginta/releases/download/v0.1.10/triginta-x86_64-unknown-linux-musl.tar.xz"
+      sha256 "195278dd4fe64c884c70557c26fcabafcecf5ca6f3b6d094e036aef5d7c4a7c3"
     end
   end
   license "GPL-3.0-only"
